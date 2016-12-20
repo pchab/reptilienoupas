@@ -9,6 +9,7 @@ var hashCode = function(s){
 router.get('/', function(req, res) {
 	var templateVariables = { 
 		title: 'Reptilien ou pas ?',
+		text: 'Some famous reptilians:',
 		footer: 'Find out the reptilians among us'
 	};
 

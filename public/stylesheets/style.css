@@ -1,12 +1,23 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url(http://proofofalien.com/wp-content/uploads/2016/03/Top-10-Proof-Of-Reptilian-Aliens-Among-Us.jpg);
+  background-image: url(/images/Reptilian-Aliens-Among-Us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
-  color: #00B7FF;
+  color: #FFFFFF;
+}
+
+.footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   margin: 20px;
 }
