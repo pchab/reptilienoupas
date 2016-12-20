@@ -12,6 +12,7 @@
     "start": "nodejs ./bin/www"
   },
   "dependencies": {
+    "ejs": "~2.5.5",
     "express": "~4.0.0",
     "static-favicon": "~1.0.0",
     "morgan": "~1.0.0",
