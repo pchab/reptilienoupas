@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <base href="/" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="javascripts/reptilien.js"></script>
+
+  </head>
+  <body>
+  	<h1><%= title %></h1>
+
+    <form onSubmit="return checkIfReptilien();">
+    <input id="form" type="text" maxlength="55" class="box" autofocus />
+    <input type="submit" class="submit" value="SUBMIT" />
+    </form>
+    <br />
+
+  	<a href="/" class="footer"><%= footer %></a>
+  </body>
+</html>
