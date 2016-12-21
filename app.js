@@ -37,7 +37,7 @@ if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
         res.render('error', {
-            title: 'Reptilien ou pas ?',
+            title: 'Reptilian or not ?',
             message: err.message,
             error: err
         });
@@ -49,7 +49,7 @@ if (app.get('env') === 'development') {
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
-        title: 'Reptilien ou pas ?',
+        title: 'Reptilian or not ?',
         message: err.message,
         error: {}
     });
